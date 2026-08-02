@@ -10,6 +10,12 @@ body{
     height:28%;
     
 }
+@media (max-width:768px) {
+    .headarea img{
+        width:90px;
+        height:auto;
+    }
+}
 #logo{
     padding:20px 8%; 
     position:absolute;
