@@ -112,6 +112,12 @@ body{
     transition-duration:1s;
     border-radius:5px;
 }
+@media (max-width:768px) {
+    .movies img{
+        width:90px;
+        height:auto;
+    }
+}
 .movies img:hover{
     transform:scale(1.1,1.1);
 }
